@@ -32,6 +32,8 @@ pip install -e .
 - Visualization 
 
 
+The project is being update to ensure compatibility.
+
 ## Project structure
 - data/
 - src/
@@ -43,6 +45,8 @@ pip install -e .
 Data folder should be populated from figshare directory
 and 
 data contains spikes from 24-well MEA recorded at DIV
+[Figshare](https://figshare.com/projects/NetBurstDynamics/221734)
+
 
 ## Citation
 

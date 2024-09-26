@@ -1,14 +1,14 @@
 
 from pickle import FALSE
-from src.dynamics_Model2 import StochSim_o, StochSimI_mult, StochSim_add
-from scipy import stats
-import sys
+from src.dynamics import StochSim_o
+# from scipy import stats
+# import sys
 import numpy as np
 na = np.array
-from scipy import stats
-import sys
+# from scipy import stats
+# import sys
 import numpy as np
-from scipy.signal import find_peaks
+# from scipy.signal import find_peaks
 from numba import jit
 import sympy as sp
 na = np.array
@@ -17,34 +17,34 @@ import numpy as np
 import torch
 na = np.array
 
-from sbi.types import Shape
-from src.dynamics_Model2 import FPmultiStart,findOsc 
+# from sbi.types import Shape
+from src.dynamics import FPmultiStart,findOsc 
 
 from numba import jit 
 from scipy.integrate import solve_ivp as solve_ivp
 
 import matplotlib.pyplot as plt
-from sbi.inference import SNPE
-from sbi.utils import RestrictionEstimator
+# from sbi.inference import SNPE
+# from sbi.utils import RestrictionEstimator
 import torch
 from sbi import utils as utils
 from sbi import analysis as analysis
-from sbi.inference.base import infer
+# from sbi.inference.base import infer
 import numpy as np
 
-from tqdm import tqdm
+# from tqdm import tqdm
 na =np.array
-import os
+# import os
 import numpy as np
 from scipy.io import loadmat as loadmat
 na =np.array
-from sbi.utils.get_nn_models import posterior_nn
-from functools import partial
-from sbi.inference import SNPE, SNRE, prepare_for_sbi, simulate_for_sbi
-from sbi.types import Shape
-from torch import Tensor
-from multiprocessing import Pool
-from sbi.types import Shape
+# from sbi.utils.get_nn_models import posterior_nn
+# from functools import partial
+# from sbi.inference import SNPE, SNRE, prepare_for_sbi, simulate_for_sbi
+# from sbi.types import Shape
+# from torch import Tensor
+# from multiprocessing import Pool
+# from sbi.types import Shape
 # from sbi.samplers.mcmc import slice_np_parallized
 
 
