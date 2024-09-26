@@ -14,9 +14,15 @@ Clone the repository
 pip clone https://github.com/LevinaLab/NetBurstDynamics.git
 ```
 
+Making a new conda environment and installing the dependencies with conda
+
+```bash
+env create --name NetBurstDynamics --file dependencies.yml
+```
+
 install the code in you local environment as 
 ```python
-use pip install -e . 
+pip install -e . 
 ```
 
 ## Workflow
@@ -27,13 +33,16 @@ use pip install -e .
 
 
 ## Project structure
+- data/
 - src/
 - trained/
 - scripts/
     - Figures/ 
     - DataProcessing/
 
-
+Data folder should be populated from figshare directory
+and 
+data contains spikes from 24-well MEA recorded at DIV
 
 ## Citation
 
